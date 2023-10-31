@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQuery.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="sensor"></div>
+    <header>
+      <div class="logo">Jeremy Chan</div>
+      <div class="header-links">
+        <a href="#about">關於我</a>
+        <a href="#resumes">經歷</a>
+        <a href="#project">作品</a>
+        <a href="#contact" class="openModalBtn">聯絡我</a>
+      </div>
+      <div class="hamber">
+        <div class="hamber-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="hamber-menu">
+          <div class="hamber-header-links">
+            <a href="#about"
+              ><img
+                class="icon-sm"
+                src="./assets/question-answer-help-svgrepo-com.svg"
+                alt=""
+              />
+              <p>關於我</p>
+            </a>
+            <a href="#resumes"
+              ><img
+                class="icon-sm"
+                src="./assets/browser-svgrepo-com.svg"
+                alt=""
+              />
+              <p>經歷</p></a
+            >
+            <a href="#project"
+              ><img
+                class="icon-sm"
+                src="./assets/portfolio-svgrepo-com.svg"
+                alt=""
+              />
+              <p>作品</p>
+            </a>
+            <a href="#contact">
+              <div>
+                <img
+                  class="icon-sm openModalBtn"
+                  src="./assets/phone-white.svg"
+                  alt=""
+                />
+              </div>
+              <p>聯絡我</p></a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="profile" class="profile">
+      <div class="profile-avatar-container">
+        <img src="./assets/IMG_6589.jpg" alt="" />
+      </div>
+      <div class="profile-content-container">
+        <div class="profile-content">
+          <div class="intro-1">
+            <p>Hello, I am</p>
+            <h1 class="title">Jeremy</h1>
+          </div>
+          <p class="job-position">前端工程師</p>
+        </div>
+        <div class="btns-container">
+          <button class="btn">下載履歷</button>
+          <button class="btn openModalBtn">
+            <a href="#contact">聯絡我</a>
+          </button>
+        </div>
+        <div class="socials-container">
+          <div
+            class="icon-sm"
+            onclick="location.href='https://www.instagram.com/anakedape/'"
+          >
+            <img src="./assets/instagram-round-svgrepo-com.svg" alt="" />
+          </div>
+          <div
+            class="icon-sm"
+            onclick="location.href='https://github.com/nudieisgood?tab=repositories'"
+          >
+            <img src="./assets/github.png" alt="" />
+          </div>
+          <div
+            class="icon"
+            onclick="location.href='mailto:nudieisgoodmii@gmail.com'"
+          >
+            <img src="./assets/email.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-container">
+      <div class="section-title">
+        <h2>關於我</h2>
+      </div>
+      <div class="section-content about-content-container">
+        <div class="about-img">
+          <div class="pic">
+            <img
+              src="./assets/person-reading-a-book-question-mark-svgrepo-com.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- src="https://res.cloudinary.com/dfvtounam/image/upload/v1698125347/eaepex4ceyjktagrwmfa.webp" -->
+        <div class="about-content">
+          <div class="about-content-1">
+            <div class="detail-card detail-card-about">
+              <div>
+                <img class="icon" src="./assets/icons8-briefcase.svg" alt="" />
+              </div>
+              <p class="about-detail-title">工作經驗</p>
+              <p>製成工程師 豐泰企業</p>
+              <p>餐飲人員 橙食早午餐</p>
+            </div>
+            <div class="detail-card detail-card-about">
+              <div>
+                <img
+                  class="icon"
+                  src="./assets/education-cap-svgrepo-com.svg"
+                  alt=""
+                />
+              </div>
+              <p class="about-detail-title">教育程度</p>
+              <p>東海大學工業工程</p>
+            </div>
+          </div>
+          <p class="about-content-2">
+            畢業於東海大學工業工程系,生產線上作業員動作及時間的研究、工廠機台及路線佈置、品質管制等等已達到減少生產上的浪費。到生產線上實地測量數據、整理數據找出改善方案等等,
+            都讓我學習到很多。 工作經驗上, 役畢後在豐泰企業擔任製程工程師,
+            工作職責是設計並規劃鞋子的生產流程, 以及實務生產上的試驗,
+            由於是開發中心,
+            所以在整個鞋型的生產週期也需與海外工廠以及美國設計師有來回的溝通討論,
+            2017年前往加拿大打工度假, 簽證結束後也去了美國,
+            歐洲當了兩個月獨行背包客,
+            在國外工作及旅行的過程更加強了與不同背景人們交流的能力。
+            我有自信能夠利用所學及經驗。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-container" id="resumes">
+      <div class="section-title">
+        <h2>經歷</h2>
+      </div>
+      <div class="section-content-resumes">
+        <div class="resumes-tabs">
+          <ul>
+            <li>
+              <a href="#page-1" class="page-1">教育程度</a>
+            </li>
+            <li>
+              <a href="#page-2" class="page-2">工作經驗</a>
+            </li>
+            <li>
+              <a href="#page-3" class="page-3">技能</a>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-content">
+          <div id="page-1" class="page one">
+            <div class="page-header">
+              <div class="resume-wrap-icon">
+                <img
+                  class="icon"
+                  src="./assets/education-cap-svgrepo-com.svg"
+                  alt=""
+                />
+              </div>
+              教育程度
+            </div>
+            <div class="resume-wrap detail-card detail-card-about">
+              <div class="resume-wrap-content edu">
+                <span>2009 - 2012</span>
+                <h4>斗南高中</h4>
+              </div>
+            </div>
+            <div class="resume-wrap detail-card detail-card-about">
+              <div class="resume-wrap-content edu">
+                <span>2012 - 2016</span>
+                <h4>東海大學</h4>
+                <h5>工業工程學系</h5>
+              </div>
+            </div>
+          </div>
+          <div id="page-2" class="page two">
+            <div class="page-header">
+              <div class="resume-wrap-icon">
+                <img
+                  class="icon"
+                  src="./assets/resume-portfolio-svgrepo-com.svg"
+                  alt=""
+                />
+              </div>
+              工作經驗
+            </div>
+            <div class="resume-wrap detail-card detail-card-about">
+              <div class="resume-wrap-content edu">
+                <span>2014-2017</span>
+                <h4>豐泰企業</h4>
+                <h5>製成工程師</h5>
+              </div>
+            </div>
+            <div class="resume-wrap detail-card detail-card-about">
+              <div class="resume-wrap-content edu">
+                <span>2019-2022</span>
+                <h4>橙食早午餐</h4>
+                <h5>餐飲人員</h5>
+              </div>
+            </div>
+          </div>
+          <div id="page-3" class="page three">
+            <div class="page-header">
+              <div class="resume-wrap-icon">
+                <img
+                  class="icon"
+                  src="./assets/browser-svgrepo-com.svg"
+                  alt=""
+                />
+              </div>
+              技能包
+            </div>
+            <div class="resume-wrap">
+              <div class="skills-content-container">
+                <div class="detail-card skill-detail-card">
+                  <h5>前端開發相關</h5>
+                  <div class="skills-set-container">
+                    <div class="skill-set-container">
+                      <div class="skill-set">
+                        <div>
+                          <img
+                            class="icon"
+                            src="./assets/html-5-svgrepo-com.svg"
+                            alt=""
+                          />
+                          <p>HTML</p>
+                        </div>
+                        <p>50%</p>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" style="width: 50%"></div>
+                      </div>
+                    </div>
+                    <div class="skill-set-container">
+                      <div class="skill-set">
+                        <div>
+                          <img
+                            class="icon"
+                            src="./assets/css-3-svgrepo-com.svg"
+                            alt=""
+                          />
+                          <p>CSS</p>
+                        </div>
+                        <p>50%</p>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" style="width: 50%"></div>
+                      </div>
+                    </div>
+                    <div class="skill-set-container">
+                      <div class="skill-set">
+                        <div>
+                          <img
+                            class="icon"
+                            src="./assets/tailwindcss-icon-svgrepo-com.svg"
+                            alt=""
+                          />
+                          <p>TailwindCSS</p>
+                        </div>
+                        <p>50%</p>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" style="width: 50%"></div>
+                      </div>
+                    </div>
+                    <div class="skill-set-container">
+                      <div class="skill-set">
+                        <div>
+                          <img
+                            class="icon"
+                            src="./assets/javascript-svgrepo-com.svg"
+                            alt=""
+                          />
+                          <p>JavaScript</p>
+                        </div>
+                        <p>50%</p>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" style="width: 50%"></div>
+                      </div>
+                    </div>
+                    <div class="skill-set-container">
+                      <div class="skill-set">
+                        <div>
+                          <img
+                            class="icon"
+                            src="./assets/react-svgrepo-com.svg"
+                            alt=""
+                          />
+                          <p>React</p>
+                        </div>
+                        <p>50%</p>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" style="width: 50%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="detail-card skill-detail-card">
+                  <h5>後端開發相關</h5>
+                  <div class="skills-set-container">
+                    <div class="skill-set-container">
+                      <div class="skill-set">
+                        <div>
+                          <img
+                            class="icon"
+                            src="./assets/node-js-svgrepo-com.svg"
+                            alt=""
+                          />
+                          <p>Node JS</p>
+                        </div>
+                        <p>50%</p>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" style="width: 50%"></div>
+                      </div>
+                    </div>
+                    <div class="skill-set-container">
+                      <div class="skill-set">
+                        <div>
+                          <img
+                            class="icon"
+                            src="./assets/express-svgrepo-com.svg"
+                            alt=""
+                          />
+                          <p>Express JS</p>
+                        </div>
+                        <p>50%</p>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" style="width: 50%"></div>
+                      </div>
+                    </div>
+                    <div class="skill-set-container">
+                      <div class="skill-set">
+                        <div>
+                          <img
+                            class="icon"
+                            src="./assets/mongo-svgrepo-com.svg"
+                            alt=""
+                          />
+                          <p>Mongo DB</p>
+                        </div>
+                        <p>50%</p>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" style="width: 50%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-container section-container-project" id="project">
+      <div class="section-title">
+        <h2>作品集</h2>
+      </div>
+      <div class="section-content section-content-project large">
+        <div class="project-content-container large">
+          <div class="detail-card project-detail-card project-1">
+            <div class="project-img">
+              <img src="./assets/project-1.png" alt="" />
+            </div>
+            <h4>WeShare</h4>
+            <div class="project-btn-container">
+              <button
+                class="btn btn--1"
+                onclick="location.href='https://github.com/nudieisgood/weshare-toghter-frontend'"
+              >
+                Github
+              </button>
+              <button
+                onclick="location.href='https://weshare-toghter.onrender.com/'"
+                class="btn btn--2"
+              >
+                Demo
+              </button>
+            </div>
+          </div>
+
+          <div class="detail-card project-detail-card project-2">
+            <div class="project-img">
+              <img src="./assets/project-2.png" alt="" />
+            </div>
+            <h4>WTAPS</h4>
+            <div class="project-btn-container">
+              <button
+                class="btn btn--1"
+                onclick="location.href='https://github.com/nudieisgood/weshare-toghter-frontend'"
+              >
+                Github
+              </button>
+              <button
+                onclick="location.href='https://weshare-toghter.onrender.com/'"
+                class="btn btn--2"
+              >
+                Demo
+              </button>
+            </div>
+          </div>
+
+          <div class="detail-card project-detail-card project-3">
+            <div class="project-img">
+              <img src="./assets/project-3.png" alt="" />
+            </div>
+            <h4>DCDT</h4>
+            <div class="project-btn-container">
+              <button
+                class="btn btn--1"
+                onclick="location.href='https://github.com/nudieisgood/weshare-toghter-frontend'"
+              >
+                Github
+              </button>
+              <button
+                onclick="location.href='https://weshare-toghter.onrender.com/'"
+                class="btn btn--2"
+              >
+                Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="header-links">
+        <a href="#about">關於我</a>
+        <a href="#resumes">經歷</a>
+        <a href="#project">作品</a>
+        <a href="#contact" class="openModalBtn">聯絡我</a>
+      </div>
+      <p>Copyright 2023 Jeremy Chan. All Right Reserved</p>
+    </footer>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="close-modal-btn">&times;</div>
+
+        <div class="contact-content">
+          <div class="contact-item">
+            <a href="mailto:nudieisgoodmii@gmail.com">
+              <div><img class="icon" src="./assets/email.png" alt="" /></div>
+            </a>
+            <p>nudieisgoodmii@gmail.com</p>
+          </div>
+          <div class="contact-item">
+            <a href="tel:0916871655">
+              <div>
+                <img class="icon" src="./assets/phone-black.svg" alt="" />
+              </div>
+            </a>
+            <p>0916871655</p>
+          </div>
+          <div class="contact-item">
+            <div
+              class="icon"
+              onclick="location.href='https://www.instagram.com/anakedape/'"
+            >
+              <img src="./assets/instagram-round-svgrepo-com.svg" alt="" />
+            </div>
+            <p>Instagram</p>
+          </div>
+          <div class="contact-item">
+            <div
+              class="icon"
+              onclick="location.href='https://github.com/nudieisgood?tab=repositories'"
+            />
+            <img src="./assets/github.png" alt="" />
+          </div>
+          <p>Github</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+<!-- <button id="myBtn">Open Modal</button> -->
+<!-- <section class="section-container" id="skills">
+      <div class="section-title">
+        <h2>開發技能包</h2>
+      </div>
+      <div class="section-content">
+        <div class="skills-content-container">
+          <div class="detail-card skill-detail-card">
+            <h5>前端開發相關</h5>
+            <div class="skills-set-container">
+              <div class="skill-set">
+                <img
+                  class="icon"
+                  src="./assets/html-5-svgrepo-com.svg"
+                  alt=""
+                />
+                <p>HTML</p>
+              </div>
+              <div class="skill-set">
+                <img class="icon" src="./assets/css-3-svgrepo-com.svg" alt="" />
+                <p>CSS</p>
+              </div>
+              <div class="skill-set" class="skill-set">
+                <img
+                  class="icon"
+                  src="./assets/tailwindcss-icon-svgrepo-com.svg"
+                  alt=""
+                />
+                <p>TailwindCSS</p>
+              </div>
+              <div class="skill-set">
+                <img
+                  class="icon"
+                  src="./assets/javascript-svgrepo-com.svg"
+                  alt=""
+                />
+                <p>JavaScript</p>
+              </div>
+              <div class="skill-set">
+                <img class="icon" src="./assets/react-svgrepo-com.svg" alt="" />
+                <p>React</p>
+              </div>
+            </div>
+          </div>
+          <div class="detail-card skill-detail-card">
+            <h5>後端開發相關</h5>
+            <div class="skills-set-container">
+              <div class="skill-set">
+                <img
+                  class="icon"
+                  src="./assets/node-js-svgrepo-com.svg"
+                  alt=""
+                />
+                <p>Node JS</p>
+              </div>
+              <div class="skill-set">
+                <img class="icon" src="./assets/express-svgrepo-com.svg" alt=""
+                / >
+                <p>Express JS</p>
+              </div>
+              <div class="skill-set">
+                <img class="icon" src="./assets/mongo-svgrepo-com.svg" alt="" />
+                <p>Mongo DB</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
